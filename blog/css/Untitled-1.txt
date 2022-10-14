@@ -1,0 +1,49 @@
+As some may know i host nearly all my services at home on my home server. 
+
+Starting 3 years ago i ordered my first server and began learning how to use command line and the proper practices that need to be used in a production environment. Currently I now have 4 servers in my home rack running websites, game servers and media services (plex). 
+
+<div id="container">
+<div class="images"> <img src="https://cdn.thatguyjack.co.uk/Pibi1/XAyUCuxe48.jpg/raw" preload="auto" controls></img></div>
+<p>My 24u Rack</p>
+</div>
+<br>
+<p class="header-footer">My DL380p</p>
+<br>
+In the rack i have my DL380p G8 which runs Proxmox (debain based KVM hypervisor) that runs nearly all my services including this blog! It currently has 6 128gb samsung sata SSDs in raid 6 giving me a throughput of up to 3 Gigabytes per second reads and writes, with too many I/Os per second to count.
+<div id="container">
+<div class="images"> <img src="https://cdn.thatguyjack.co.uk/Pibi1/CotohOkA50.png/raw" preload="auto" controls></img></div>
+<p>Full specs: Dual Xeon E5-2643 V2s (12 cores 24 threads total at 3.5GHz - 3.8GHz) 96GB of 1366MHz DDR3 ecc registered, and 6 128gb SSDs in hardware raid 6.</p>
+</div>
+<br>
+<p class="header-footer">Fujitsu Server</p>
+<br>
+Secondly i have my fujitsu TX150 S7 that runs my storage for the plex VM i’m hoping to replace this soon by just adding more drives to the DL380p as nothing else runs on the server meaning its quite waistfull.
+<div id="container">
+<div class="images"> <img src="https://cdn.thatguyjack.co.uk/Pibi1/simIBIja92.png/raw" preload="auto" controls></img></div>
+<p>Full specs: Xeon x3470 (4 core 8 thread at 2.93GHz to 3.60GHz) 32gb of DDR3 ecc unbuffered 128gb ssd for boot, a 1tb segate HDD, 3 500gb WD blues.</p>
+</div>
+<br>
+<p class="header-footer">Second DL380p</p>
+<br>
+The other DL380p is my friends that they run similar things to mine (plex, game servers, etc). This server has dual Xeon E5-2650 V2s (32 threads 16 cores total at 2.6GHz - 3.4GHz) two 1tb 10k rpm in raid 0 and a 256gb ssd for boot.
+<div id="container">
+<div class="images"> <img src="https://cdn.thatguyjack.co.uk/Pibi1/qeDiwUYi31.png/raw" preload="auto" controls></img></div>
+<p>Full specs: Dual Xeon E5-2650 V2s (32 threads 16 cores total at 2.6GHz - 3.4GHz) two 1tb 10k rpm in raid 0 and a 256gb ssd for boot.</p>
+</div>
+<br>
+<p class="header-footer">PFsense Router</p>
+<br>
+The Final server is the Dell R320 that runs PFsense for all my networking needs. It currently runs 3 subnets home/guest my server network and one for my friends, it also has vpn connections for remote access/management.
+<div id="container">
+<div class="images"> <img src="https://cdn.thatguyjack.co.uk/Pibi1/wOnEveJa40.png/raw" preload="auto" controls></img></div>
+<p>Full specs: Xeon E5-2420 v1 (6 cores 12 threads 1.9GHz - 2.40Ghz), 8gb of DDR3 ecc registered and a 256gb sata ssd.</p>
+</div>
+<br>
+<p class="header-footer">VPS</p>
+<br>
+Finaly every website and service is proxied through my OVH VPS even though this costs me each month to run it adds ddos protection. 
+Full specs: 2 Vcores, 4gb of ram and 40gb of SSD storage.
+
+<p class="header-footer">Upgrades for the future!</p>
+<br>
+In the future im looking at moving all my storage onto the my HP DL380p, and getting a new network switch that supports the TP-Link omada Eco System.

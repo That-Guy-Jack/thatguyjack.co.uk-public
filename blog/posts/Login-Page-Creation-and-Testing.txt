@@ -1,0 +1,20 @@
+Just a simple post showing off the custom login page and post creation page!
+
+Its fairly simple and made in php (first time coding php) and it uses mysql to store the post name, post ID (primary Key) and the post date.
+
+The passwords are stored in another table in the DB and the password was hashed before adding it to the database for extra security!
+
+Content of the posts is stored in .txt files and supports markdown.
+
+
+<div id="container">
+<div class="images"> <img src="https://cdn.thatguyjack.co.uk/Pibi1/jUwoKovU90.png/raw" preload="auto" controls></img></div>
+<p>This post in the creation page</p>
+</div>
+<br>
+<div id="container">
+<div class="images"> <img src="https://cdn.thatguyjack.co.uk/Pibi1/NIfiFAjA93.png/raw" preload="auto" controls></img></div>
+<p>The themed login page</p>
+</div>
+<br>
+ 

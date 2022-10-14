@@ -1,0 +1,17 @@
+{
+    "particles": {
+      "links": {
+        "enable": true,
+        "color": {
+          "value": "#006400"
+        },
+        "distance": 300
+      },
+      "move": {
+        "enable": true
+      },
+      "color": {
+        "value" : "#006400"
+      }
+    }
+  }

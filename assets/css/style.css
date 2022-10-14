@@ -1,0 +1,444 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D5AB2D;
+    color:black;
+}
+
+.bots-body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #685B60;
+    color:black;
+}
+
+.mc-body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #685B60;
+    color:black;
+}
+
+
+#background {
+  
+    position:fixed;
+    overflow: hidden;
+    display: block;
+      
+    top: 0;
+    width:96%;
+    height: 100%;
+    z-index: -1;
+}
+
+.padding{
+    height:80px;
+}
+
+.section{
+    opacity: 0;
+    animation: fadeInAnimation 1s ease 1s;
+    animation-fill-mode: forwards;
+}
+
+.nav{
+    opacity: 0;
+    animation: fadeInAnimation 1.8s ease 1.3s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    position: absolute;
+    background-color: #D5AB2D;
+    width: 98%;
+    top: 0px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    z-index: 10;
+}
+
+.nav a{
+    transition-duration: 0.2s;
+    color: black;
+    border:2px solid black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-left:4px;
+    margin-right: 4px;
+    cursor:pointer;
+}
+
+.nav a:hover{
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+    background-color: black;
+    color:#D5AB2D;
+    border: 2px solid black;
+}
+.nav a:active{
+    transform: translatey(0px);
+    color:white;
+}
+
+.nav .nav-logo{
+    float:left;
+    width:160px;
+}
+
+.mnav{
+    opacity: 0;
+    animation: fadeInAnimation 1.8s ease 1.3s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    position: absolute;
+    background-color: #D5AB2D;
+    width: 100%;
+    top: 0px;
+    text-align: center;
+    padding: 1px;
+    border-bottom: 2px solid black;
+    z-index: 10;
+}
+
+.mnav a{
+    transition-duration: 0.2s;
+    color: black;
+    border:2px solid black;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin-left:2px;
+    margin-right: 2px;
+    cursor:pointer;
+}
+
+.mnav a:hover{
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+    background-color: black;
+    color:#D5AB2D;
+    border: 2px solid black;
+}
+.mnav a:active{
+    transform: translatey(0px);
+    color:white;
+}
+
+.content{
+    position: absolute;
+    margin-top: 15%;
+    padding:10px;
+    left:10%;
+    z-index: 10;
+}
+.content-header{
+    margin-bottom:30px;
+}
+
+.content .main-header {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease 0.2s;
+    animation-fill-mode: forwards;
+    font-size: 56px;
+    margin-bottom:1px;
+}
+
+.content .header-footer{
+    opacity: 0;
+    margin:0px;
+    margin-left:5px;
+    font-size: 20px;
+    animation: fadeInAnimation 2s ease 0.6s;
+    animation-fill-mode: forwards;
+}
+
+.content-button-container{
+    margin-top:10px;
+}
+
+.content-button:hover{
+    transform: scale(1.12);
+    transition-duration: 0.2s;
+    background-color: black;
+    color:#D5AB2D;
+    border: 4px solid black;
+}
+.content-button:active{
+    transform: scale(1);
+    transition-duration: 0.2s;
+    background-color: black;
+    color:white;
+    border: 4px solid black;
+    outline:none;
+}
+
+.bots-body .nav{
+    opacity: 0;
+    animation: fadeInAnimation 2s ease 2s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    position: absolute;
+    background-color: #685B60;
+    width: 98%;
+    top: 0px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    z-index: 10;
+}
+
+.bots-body .nav a{
+    transition-duration: 0.2s;
+    color: white;
+    border:2px solid white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-left:4px;
+    margin-right: 4px;
+    cursor:pointer;
+}
+
+.bots-body .nav a:hover{
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+    background-color: white;
+    color:#D5AB2D;
+    border: 2px solid white;
+}
+.bots-body .nav a:active{
+    transform: translatey(0px);
+    color:black;
+}
+
+.bots-body .nav .nav-logo{
+    float:left;
+    width:160px;
+}
+
+.bots-body .content .main-header {
+    opacity: 0;
+    color:white;
+    animation: fadeInAnimation 2s ease 0.2s;
+    animation-fill-mode: forwards;
+    font-size: 56px;
+    margin-bottom:1px;
+}
+
+.bots-body .content .header-footer{
+    opacity: 0;
+    margin:0px;
+    margin-left:5px;
+    font-size: 20px;
+    animation: fadeInAnimation 2s ease 0.6s;
+    animation-fill-mode: forwards;
+    color:white;
+}
+
+.bots-body .content-button:hover{
+    transform: scale(1.12);
+    transition-duration: 0.2s;
+    background-color: white;
+    color:#D5AB2D;
+    border: 4px solid white;
+}
+.bots-body .content-button:active{
+    transform: scale(1);
+    transition-duration: 0.2s;
+    background-color: white;
+    color:black;
+    border: 4px solid white;
+}
+
+.mc-body .nav{
+    opacity: 0;
+    animation: fadeInAnimation 2s ease 2s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    position: absolute;
+    background-color: #685B60;
+    width: 98%;
+    top: 0px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    z-index: 10;
+}
+
+.mc-body .nav a{
+    transition-duration: 0.2s;
+    color: white;
+    border:2px solid white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-left:4px;
+    margin-right: 4px;
+    cursor:pointer;
+}
+
+.mc-body .nav a:hover{
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+    background-color: white;
+    color:#00ab00;
+    border: 2px solid white;
+}
+.mc-body.nav a:active{
+    transform: translatey(0px);
+    color:black;
+}
+
+.mc-body .nav .nav-logo{
+    float:left;
+    width:160px;
+}
+
+.mc-body .content .main-header {
+    opacity: 0;
+    color:white;
+    animation: fadeInAnimation 2s ease 0.2s;
+    animation-fill-mode: forwards;
+    font-size: 56px;
+    margin-bottom:1px;
+}
+
+.mc-body .content .header-footer{
+    opacity: 0;
+    margin:0px;
+    margin-left:5px;
+    font-size: 20px;
+    animation: fadeInAnimation 2s ease 0.6s;
+    animation-fill-mode: forwards;
+    color:white;
+}
+
+.mc-body .content-button:hover{
+    transform: scale(1.12);
+    transition-duration: 0.2s;
+    background-color: white;
+    color:#00ab00;
+    border: 4px solid white;
+}
+.mc-body .content-button:active{
+    transform: scale(1);
+    transition-duration: 0.2s;
+    background-color: white;
+    color:black;
+    border: 4px solid white;
+}
+
+.blog-body .nav{
+    opacity: 0;
+    animation: fadeInAnimation 1.8s ease 1.3s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    position: absolute;
+    background-color: #D5AB2D;
+    width: 98%;
+    top: 0px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    z-index: 10;
+}
+
+.blog-body .nav a{
+    transition-duration: 0.2s;
+    color: black;
+    border:2px solid black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-left:4px;
+    margin-right: 4px;
+    cursor:pointer;
+}
+
+.blog-body .nav a:hover{
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+    background-color: black;
+    color:#D5AB2D;
+    border: 2px solid black;
+}
+.blog-body.nav a:active{
+    transform: translatey(0px);
+    color:white;
+}
+
+.blog-body .nav .nav-logo{
+    float:left;
+    width:160px;
+}
+
+.blog-body .content .main-header {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease 0.2s;
+    animation-fill-mode: forwards;
+    font-size: 56px;
+    margin-bottom:1px;
+}
+
+.blog-body .content .header-footer{
+    opacity: 0;
+    margin:0px;
+    margin-left:5px;
+    font-size: 20px;
+    animation: fadeInAnimation 2s ease 0.6s;
+    animation-fill-mode: forwards;
+}
+
+.blog-body .content-button:hover{
+    transform: scale(1.12);
+    transition-duration: 0.2s;
+    background-color: black;
+    color:#D5AB2D;
+    border: 4px solid black;
+}
+.blog-body .content-button:active{
+    transform: scale(1);
+    transition-duration: 0.2s;
+    background-color: black;
+    color:white;
+    border: 4px solid black;
+    outline:none;
+}
+.blog-post{
+    opacity: 0;
+    animation: fadeInAnimation 1.9s ease 1.3s;
+    animation-fill-mode: forwards;
+    transform: scale(1);
+    transition-duration: 0.2s;
+    outline:none;
+    width: 100%
+     
+}
+.blog-post .section{
+    opacity: 0;
+    animation: fadeInAnimation 1s ease 1s;
+    animation-fill-mode: forwards;
+    overflow-wrap: break-word;
+}
+p {
+    font-size: 1vw;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
